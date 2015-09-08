@@ -1,0 +1,226 @@
+ /**
+    * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+    * http://cssreset.com
+    */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    display: block;
+    }
+    body {
+    line-height: 1;
+    }
+    ol, ul {
+    list-style: none;
+    }
+    blockquote, q {
+    quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    content: '';
+    content: none;
+    }
+    table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+
+html, body {
+	height: 100vh;
+	font-style: normal;
+	font-family: "Verdana", serif;
+	min-width: 1200px;
+	overflow-x: hidden;
+}
+
+h1 {
+	color: #F39E1F;
+	margin-top: 60px;
+	padding: 0px 40px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 66px;
+	font-weight: 700;
+}
+
+#cont {
+	max-width: 55%;
+	min-width: 400px;
+}
+
+.summary {
+	padding: 0px 40px;
+	width: 65%;
+	max-width: 650px;
+	min-width: 400px;
+	color: #666;
+}
+
+.summary p {
+	color: dimgrey;
+	font-family: 'PT Serif', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: normal;
+}
+
+.navigation {
+	float: left;
+	height: 100%;
+	min-height: 100vh;
+	width: 220px;
+	background-color: #072134;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+}
+
+.navigation nav {
+	margin-left: 38px;
+}
+
+.logo {
+	text-align: center;
+	padding-top: 60px;
+}
+
+.main-menu {
+	margin-top: 40px;
+	margin-bottom: 200px;
+}
+
+.menu ul {
+	list-style: none;
+	padding-top: 10px;
+}
+
+.menu li {
+	padding-left: 10px;
+	list-style-position: outside;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.navigation p {
+	font-size: 10px;
+}
+
+.menu-line {
+	width: 140px;
+	padding-left: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: url("image/line-inside.png") repeat-x;
+}
+
+.copy {
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	text-align: center;
+	width: 220px;
+	color: #636a7d;
+}
+
+.button {
+	margin: 30px 40px;
+	background: #F39E1F;
+	width: 10vw;
+	min-width: 140px;
+	max-height: 30px;
+	text-align: center;
+	color: white;
+	font-family: 'PT Serif', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+	padding: 18px;
+}
+
+.link {
+	text-decoration: underline;
+	color: #666;
+	margin: 40px 40px;
+	font-style: italic;
+}
+
+.line-top {
+	margin: 20px 40px;
+ 	width: 110px;
+	height: 3px;
+	background: url("image/line-top.png") repeat-x;
+}
+
+#login {
+	background: url("image/login.png") no-repeat;
+	margin: 0px 10px 10px 0px;
+	padding-left: 30px;
+}
+
+#register {
+	background: url("image/register.png") no-repeat;
+	padding-left: 30px;
+}
+
+.mobile-header {
+	display: none;
+}
+
+#img-02, #img-03 {
+	display: none;
+}
+
+#img-01 {
+	padding-left: 40px;
+	float: left;
+	position: absolute;
+	/*top: 230px;*/
+	top: 230px;
+	left: 220px;
+	width: 60%;
+	min-width: 900px;
+	max-width: 1200px;
+	display: block;
+}
+
+main {
+	float:left;
+}
+
+@media (max-width: 1550px) {
+	
+	#img-01 {
+		top: 250px;
+	}
+	
+	.button {
+		float: left;
+		margin: 20px 20px 20px 40px;
+	}
+}
+	

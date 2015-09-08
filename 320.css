@@ -1,0 +1,76 @@
+	.navigation {
+		display: none;
+	}
+
+	.mobile-header {
+		display: table;
+		width: 100vw;
+	}
+
+  #mobile-first {
+		display: table-cell;
+		width: 49vw;
+		padding: 10vw 10vw 0;
+	}
+
+	#mobile-second {
+		display: table-cell;
+		width: 49vw;
+		text-align: right;
+		vertical-align: middle;
+		padding: 10vw 10vw 0;
+	}
+
+	h1 {
+		margin-left: 10vw;
+		width: 80vw;
+		max-width: 320px;
+		min-width: 220px;
+		padding: 0px;
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 32px;
+	}
+
+	.summary {
+		margin-left: 10vw;
+		margin-right: 10vw;
+		padding: 0px;
+		max-width: 280px;
+		width: 80vw;
+		min-width: 220px;
+	}
+
+	.summary p {
+		font-size: 12px;
+	}
+
+	.line-top {
+		margin-left: 10px;
+	}
+
+	.button {
+		float: left;
+		margin-left: 10vw;
+		margin-right: 0.5vw;
+		width: 25vw;
+		height: 25px;
+		font-size: 16px;
+		padding: 3px;
+	}
+
+	.link {
+		float: left;
+		font-size: 90%;
+		padding: 0px;
+		margin: 20px;
+	}
+
+#img-02, #img-01 {
+	display: none;
+}
+
+#img-03 {
+	margin: 5vw;
+	display: inline;
+	width: 90vw;
+}
